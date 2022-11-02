@@ -10,103 +10,96 @@ a{
     text-decoration: none;
 }
 
-/* .objective{
 
-  margin-top: 160px;
 
-} */
-/* .left-side{
 
-    border-right:1px solid black;
-} */
+
+
+
 
 .objective{
 
     font-family: "Audiowide", sans-serif;
 }
 
+
+
+
+
 .my-info{
     
     margin-top:30px ;
 }
+
+
+
+
+
 .education{
    margin-top: 20%;
    margin-bottom: 10%;
-    
 }
 
-  
+
+
+
+
+
+
  .boody{
     
     background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background:  linear-gradient(to left top,#485563,#29323c); */
 }
     
+
+
+
      
 
 .btn-primary{
 
     margin-top:50px;
 }
+
+
+
+
 .card{
 
-   display: flex;
-   flex-direction: column;
+   
    background-image: url(./images/background.jpg); 
    box-shadow: 0 30px 35px  #0b2e79b6;
-    
-}
-
-
-.heightCol{
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    border-radius: 8px;
-}
-
-.cover {
-    display: flex;
-
-    /* text-align: center; */
-    /* height:100vh ; */
-    justify-content:space-around;
-   /* align-items: center; */
-   height:400px;
-   
-   
-}
-    
-
-.social {
-margin:auto 25%;
 }
 
 
 
 
-.logo
-{
- display: grid;
- grid-template-columns: auto auto auto ;
- border-radius: 15%;
- gap:10px;
- margin:5% ;
- background-color:#f8f8f8 ;
- padding:10px ;
- height: 80%;
- padding: 2%;
- border: 2px solid white;
- 
 
- 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #odaymargin{
-    margin-top: 50px;
+    margin-top: 60px;
 }
+
+
+
+
 
 .img_logo{
     height:150px;
@@ -115,20 +108,21 @@ margin:auto 25%;
 }
 
 
- /* .boody{
-    background-image:url('./background.jpg') ;
-}   */
-
-.exp_main h2 {
-
-    text-align: center;
-    margin-bottom: 25px;
-}
 
 
-.exp1 {
-    margin-left: 35%;
-}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,89 +130,97 @@ margin:auto 25%;
  #odyapic{
     border-radius:50% ;
     border: #242b3d7d solid 2px;
-    /* background-color: rgb(207, 248, 248); */
-    margin: 50px 0 20px;
-    background-color: #97979d2d;;
     
+    margin: 50px 0 20px;
+    background-color: #97979d2d;; 
 
 } 
 
-.exp_main{
-    height:100vh ;
-
-}
 
 
-.pro{
-    height:100vh ;
-}
 
 
-.exp{
-
-  
-   align-items: center;
-   align-content: center;
-}
 
 
-/* .information{ 
-    display: flex;
-    flex-wrap: wrap;
- flex-direction: column;
-    justify-content: space-around;
-} */
+
+
+
+
+
+
+
+
+
+
 
 
 
  /* navbar */
-.container-fluid{
-    background-color: rgb(5, 42, 206);
-}
+
 .navbar{
    
-    background-color: rgba(213, 202, 202, 0);
+   
     z-index:999 ;
-    color: white;
+    
     position: fixed;
     background-color: rgba(211, 206, 206, 0.375);
     border-radius: 30px 100px 30px 100px;
-    
-    
+    justify-items: space-between;
+  
     
  }
 
- .navnav{
-    position: fixed;
-    
- }
+
+
+
+
+
 
 
 
  
 
- .nav-item a{color: white;}
- .nav-item a:hover  {color: rgb(13, 45, 174);}
+ .nav-item a{color: rgb(255, 255, 255);}
+
+ .nav-item a:hover  {color: rgb(13, 45, 174);
+    color: #edda08c8;
+
+}
 
 
- .navbar-brand{color: white;}
+
+
+
+
+
+
 
 
  /* HEADER: Contact Section */
- .my-info{
-    margin-bottom: 70px;
- }
+
+
+
  .contact-info{
     margin-top: 50px;
     padding-top: 70px;
  }
+
+
+
  .contact-info .contact-span{
     margin: 10px;
  }
+
+
+
+
  .objective{
     margin-top: 50px;
     font-size: 20px;
  }
+
+
+
  
  #education{
     position: relative;
@@ -226,16 +228,24 @@ margin:auto 25%;
     left: 100px;
     font-family: "Audiowide", sans-serif;
     color:#1604CF;
+    color: #edda08c8;
  }
 
  
+
+
+
  #skills{
     position: relative;
     top: 200px;
     left: 100px;
     font-family: "Audiowide", sans-serif;
     color:#1604CF;
+    color: #edda08c8;
  }
+
+
+
 
 .skills{
     margin-top:10%;
@@ -243,11 +253,14 @@ margin:auto 25%;
 
 }
 
+
+
+
 .pr{
     margin-bottom: 10%;
 
-
 }
+
 
 
  .listskills{
@@ -257,22 +270,27 @@ margin:auto 25%;
     margin-left: 110px;
  }
 
+
+
+
  .cardproj{
     margin-top:150px ;
     margin-left: 0px;
 
-
-
  }
+
+
+
  .project{
      position: relative; 
     top: 200px;
     left: 100px;
     font-family: "Audiowide", sans-serif;
     color:#1604CF;
+    color: #edda08c8;
     
-   
 }
+
 
 
 
@@ -298,12 +316,12 @@ margin:auto 25%;
     margin-right: 7px;
 
 }
-#fotr:hover{color: #5935dc;}
+#fotr:hover{color: #5935dc;
 
-
-#full{
-    color:#1604CF;
+    color: #edda08c8;
 }
+
+
 
 #fullstack{
     color: #edda08c8;
@@ -313,3 +331,33 @@ margin:auto 25%;
 }
 
 
+.boody{
+    overflow-x: hidden;
+}
+
+.textmuted{
+    color: #edda08c8;
+}
+.fa-solid{
+    text-transform: lowercase;
+}
+.hoverbutton :hover{
+    color: #edda08c8;
+
+
+}
+
+@media(max-width:600px){
+    #skills{
+        display: none;
+    }
+ }
+
+ .imgg{
+    width: 50px;
+    height: 50px;
+    background-color:#edda08c8 ;
+    border-radius: 50px;
+     margin-left: 970px; 
+    
+ }
